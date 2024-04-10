@@ -1,0 +1,93 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+}
+.box {
+    position: relative;
+    max-width: 350px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 20px;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 210px;
+    max-height: 297px;
+    margin: 60px auto;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 320px;
+    margin: 20px auto;
+}
+
+img {
+    width: 200.42px;
+    height: 250px;
+    margin: 10px auto;
+}
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 10;
+    border-color: black;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 175.17px;
+    max-height: 5.72px;
+    margin-left: 0px;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #AC485A;
+
+}
+
+label {
+    color: #FDFDFD;
+    background-color: black;
+}
+
+#imageButton {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    /* Additional styling for button appearance */
+    border: none;
+    outline: none;
+    padding: 0;
+    background: none;
+    max-width: 26.21px;
+    max-height: 18.07px;
+    margin: 5px auto;
+    margin-left: -30px;
+}
+
+.codenaam-label {
+    position: fixed; /* Zorgt ervoor dat het label op zijn plaats blijft, zelfs als je scrollt */
+    top: 0; /* Plaatst het label bovenaan het venster */
+    left: 50%; /* Plaatst het label in het midden van de pagina */
+    transform: translateX(-50%); /* Zorgt ervoor dat het label perfect gecentreerd is */
+    background-color: #000000; /* Achtergrondkleur van het label */
+    color: white;
+    padding: 10px; /* Ruimte rondom de tekst in het label */
+    font-size: 53.4px; /* Grootte van de tekst */
+    font-weight: bold; /* Vetgedrukte tekst */
+    z-index: 999; /* Zorgt ervoor dat het label bovenop andere inhoud blijft */
+}
